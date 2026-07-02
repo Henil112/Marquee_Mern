@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      td,
+      th {
+        border: 1px solid;
+        padding: 5px;
+      }
+      thead {
+        background-color: lightcyan;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <col style="background-color: lightcoral" />
+        <col style="background-color: lightgoldenrodyellow" />
+      </colgroup>
+      <caption>
+        This Table having the details of Employees Salary Record
+      </caption>
+      <thead>
+        <tr>
+          <th>Emp Code</th>
+          <th>Emp Name</th>
+          <th>Job Title</th>
+          <th>Salary (LPA)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>911</td>
+          <td>Zoya shaikh</td>
+          <td>Developer</td>
+          <td>2.8</td>
+        </tr>
+        <tr>
+          <td>912</td>
+          <td>Lisa</td>
+          <td>Tester</td>
+          <td rowspan="2">8.8</td>
+        </tr>
+        <tr>
+          <td>913</td>
+          <td>Deepak</td>
+          <td>Developer</td>
+          <!-- <td>6.8</td> -->
+        </tr>
+        <tr>
+          <td>914</td>
+          <td>Aditi</td>
+          <td>HR</td>
+          <td>4.8</td>
+        </tr>
+        <tr>
+          <td>915</td>
+          <td>Simran</td>
+          <td>Manager</td>
+          <td>5.8</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr style="background-color: aquamarine;">
+          <!-- <tr style= text-align: "center"> -->
+          <td colspan="4" align="center">This is Table footer</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
