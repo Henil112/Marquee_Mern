@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      *{
+          background-color: rgb(235, 183, 124);
+      }
+      ul{
+          color: aqua;
+      }
+      .Formating{
+          background-color: rgb(147, 77, 209);
+          font-family: cursive;
+      }
+      #heading{
+          color: rgb(255, 0, 162);
+      }
+      h3,p,
+      #Link
+      .Formatting {
+      background-color: rgb(147, 77, 209);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      div > p{
+          color: aqua;
+      }
+       section > p{
+          color: rgb(92, 1, 248);
+
+      }
+      input[id=name]{
+        background-color: blue;
+      }
+      input[id=password]{
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 id="heading">Types of CSS:</h3>
+    <p>Three Types:</p>
+    <ul>
+      <li class="Formating">Internal CSS</li>
+      <li class="Formating" style="color: chocolate">Inline CSS</li>
+      <li class="Formating">External CSS</li>
+    </ul>
+    <a href="#" id="Link">Click here</a>
+
+    <section>
+      <div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti id
+          dolorem illum, fuga, nulla quas consequatur magni molestias, natus
+          debitis doloribus!
+        </p>
+      </div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas optio
+        dolorem architecto incidunt aperiam. Quam qui quia dolore maiores, quo
+        rem?
+      </p>
+    </section>
+
+    <form action="">
+      <label for="name">Username: </label>
+      <input
+        type="text"
+        id="name"
+        name="username"
+        placeholder="Enter your name"
+      />
+      <br />
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your name"
+        placeholder="Password"
+      />
+      <br>
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>
