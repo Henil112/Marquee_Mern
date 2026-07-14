@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f8fc;
+}
+
+.testimonial-section {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.testimonial-section h1 {
+  font-size: 48px;
+  color: #1d4699;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 12px;
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 340px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 35px;
+  position: relative;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.quote {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  background: #2f6df6;
+  border-bottom-left-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote i {
+  color: #fff;
+  font-size: 28px;
+  margin-top: -8px;
+  margin-left: 10px;
+}
+
+.card h3 {
+  color: #1d4699;
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+.card span {
+  display: block;
+  color: #ff6b6b;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 22px;
+  margin: 20px 0;
+  letter-spacing: 4px;
+}
+
+.card p {
+  color: #555;
+  line-height: 1.8;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Responsive */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f8fc;
+}
+
+.testimonial-section {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.testimonial-section h1 {
+  font-size: 48px;
+  color: #1d4699;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 12px;
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 340px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 35px;
+  position: relative;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.quote {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  background: #2f6df6;
+  border-bottom-left-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote i {
+  color: #fff;
+  font-size: 28px;
+  margin-top: -8px;
+  margin-left: 10px;
+}
+
+.card h3 {
+  color: #1d4699;
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+.card span {
+  display: block;
+  color: #ff6b6b;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 22px;
+  margin: 20px 0;
+  letter-spacing: 4px;
+}
+
+.card p {
+  color: #555;
+  line-height: 1.8;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* #logo{
+    width:70px;
+    height:70px;
+    color: green;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+} */
+
+/* #logo {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999;
+}
+
+#logo i {
+  font-size: 60px; /* Increase or decrease */
+  /* color: #25d366; WhatsApp green */
+/* } */ 
+
+#logo{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+}
+
+#logo a{
+    text-decoration: none;
+}
+
+#logo i{
+    font-size: 60px;
+    color: #25D366;
+    cursor: pointer;
+}
+
+/* Responsive */
+
+.chatbot-btn {
+  position: fixed;
+
+  right: 20px;
+
+  bottom: 20px;
+
+  width: 60px;
+  height: 60px;
+
+  background: #2f75ff;
+
+  color: white;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+
+  font-size: 28px;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+
+  z-index: 999;
+
+  transition: 0.3s;
+}
+
+.chatbot-btn:hover {
+  background: #1f5bdd;
+
+  transform: scale(1.1);
+}
+
+/* Notification Badge */
+
+.notification {
+  position: absolute;
+
+  top: 2px;
+  right: 0;
+
+  width: 20px;
+  height: 20px;
+
+  background: red;
+
+  color: white;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 11px;
+
+  font-weight: bold;
+
+  border: 2px solid white;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 768px) {
+  .testimonial-section h1 {
+    font-size: 35px;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .whatsapp-btn,
+  .chatbot-btn {
+    width: 55px;
+    height: 55px;
+  }
+}
