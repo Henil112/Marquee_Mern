@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Card</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    width:320px;
+    background:#fff;
+    border-radius:12px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 18px 40px rgba(0,0,0,.15);
+    transition:.5s;
+}
+
+.card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 28px 55px rgba(0,0,0,.25);
+}
+
+.image{
+    position:relative;
+    width:110px;
+    margin:auto;
+}
+
+.image img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:4px solid #2dd4bf;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.card:hover img{
+    transform:scale(1.08) rotate(5deg);
+}
+
+.verify{
+    position:absolute;
+    bottom:8px;
+    right:10px;
+    width:24px;
+    height:24px;
+    background:#22c55e;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:12px;
+    border:2px solid white;
+}
+
+h2{
+    margin-top:18px;
+    font-size:24px;
+}
+
+.job{
+    color:gray;
+    margin-top:5px;
+    margin-bottom:25px;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:25px;
+}
+
+.stats div{
+    flex:1;
+}
+
+.stats h3{
+    color:#333;
+}
+
+.stats p{
+    color:gray;
+    font-size:14px;
+}
+
+.about{
+    color:#777;
+    font-size:15px;
+    line-height:22px;
+    margin-bottom:25px;
+}
+
+.social{
+    margin-bottom:25px;
+}
+
+.social a{
+    width:40px;
+    height:40px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    color:#fff;
+    text-decoration:none;
+    margin:0 5px;
+    transition:.4s;
+}
+
+.twitter{
+    background:#1DA1F2;
+}
+
+.facebook{
+    background:#1877F2;
+}
+
+.google{
+    background:#EA4335;
+}
+
+.behance{
+    background:#1769ff;
+}
+
+.social a:hover{
+    background-color: purple;
+}
+
+button{
+    width:180px;
+    padding:13px;
+    border:none;
+    border-radius:30px;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    background:linear-gradient(90deg,#19d3c5,#0aa3ff);
+    transition:.5s;
+}
+
+button:hover{
+    transform:scale(1.08);
+    letter-spacing:1px;
+    box-shadow:0 12px 25px rgba(0,170,255,.4);
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+    <div class="image">
+        <img src="https://i.pravatar.cc/150?img=12" alt="">
+        <div class="verify">
+            <i class="fa-solid fa-check"></i>
+        </div>
+    </div>
+
+    <h2>Vel Kumar P</h2>
+    <p class="job">UI/UX Designer</p>
+
+    <div class="stats">
+        <div>
+            <h3>11</h3>
+            <p>Projects</p>
+        </div>
+
+        <div>
+            <h3>250</h3>
+            <p>Following</p>
+        </div>
+
+        <div>
+            <h3>185</h3>
+            <p>Followers</p>
+        </div>
+    </div>
+
+    <p class="about">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam, officia vitae illum voluptatibus.
+    </p>
+
+    <div class="social">
+
+        <a href="#" class="twitter">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <a href="#" class="facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="#" class="google">
+            <i class="fa-brands fa-google"></i>
+        </a>
+
+        <a href="#" class="behance">
+            <i class="fa-brands fa-behance"></i>
+        </a>
+
+    </div>
+
+    <button>View Profile</button>
+
+</div>
+
+</body>
+</html>
